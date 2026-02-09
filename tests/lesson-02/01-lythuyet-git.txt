@@ -1,0 +1,8 @@
+#**Lý thuyết về git**
+- git init – Khởi tạo Git -> Biến thư mục hiện tại thành Git repository
++ Chỉ dùng 1 lần khi tạo project mới, clien repo xong thì KHÔNG cần git init nữa.
+- git add <file-name> – Add 1 file cụ thể -> Đưa 1 file cụ thể vào staging area
++ Dùng khi muốn commit 1 file
++ Không muốn commit hết mấy file khác
+- git add . – Add tất  files -> Đưa toàn bộ file đã thay đổi vào staging area
+- git commit – Lưu file code -> Lưu trạng thái code tại thời điểm hiện tại

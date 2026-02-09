@@ -1,0 +1,20 @@
+Các vùng gỉt
+- Git có 3 vùng chính:
+1. Working Directory (Vùng làm việc):
+- Nơi đang code: file đang tạo mới, chỉnh sửa, xóa..
+- Git chưa lưu những thay đổi này
+
+2. Staging Area (Vùng chờ commit)
+- Nơi chọn file sẽ được : run lệnh git add file.js
+- Dùng để kiểm soát commit cái gì, tránh commit nhầm file
+
+3. Repository (Vùng lưu trữ): Nơi git lưu lịch sửa
+- File đã được commit: run git commit -m"message"
+
+Tóm lại: 
+Working Directory
+      ↓ git add
+   Staging Area
+      ↓ git commit
+   Repository
+4. Git satus: Kiểm tea trạng thái
