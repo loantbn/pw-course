@@ -1,0 +1,8 @@
+1. Tạo folder demo
+2. git init => khởi tạo Git repository, các file ở Working Directory
+3. Tạo file1.txt, file2.txt, oppps/file3.txt
+4. Tạo .gitignore:
+   - file1.txt
+   - oppps/
+5. git add . => chỉ add file2.txt và .gitignore vào Staging Area
+6. git commit -m "init project" => file2.txt và .gitignore được lưu vào Local Repository
