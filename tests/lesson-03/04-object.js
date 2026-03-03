@@ -34,7 +34,7 @@ let settings = {
     brightness: 70
 }
 settings.volume = 75;
-console.log(settings.volume);
+console.log(settings);
 
 //Bai 5
 let bike = {

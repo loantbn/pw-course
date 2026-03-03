@@ -14,12 +14,13 @@ for(let i = 2; i <= 9; i++){
 
 }
 // Bai 3
+const evenNumbers = [];
 for(let i = 1; i <= 100; i++){
     if (i !==2){
-        console.log(i);
+        evenNumbers.push(i);
     }
 }
-
+console.log(evenNumbers);
 // Bai 4
 for(let i = 1; i <= 10; i++){
  console.log(`user${i}@example.com`);

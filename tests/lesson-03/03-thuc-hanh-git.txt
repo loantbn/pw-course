@@ -6,3 +6,23 @@
    - oppps/
 5. git add . => chỉ add file2.txt và .gitignore vào Staging Area
 6. git commit -m "init project" => file2.txt và .gitignore được lưu vào Local Repository
+.gitignore hoạt động ở đâu?
+-  Nó tác động tại Working Directory
+- Git vẫn thấy file tồn tại trong folder nhưng không cho file đó vào trạng thái Untracked
+- git add . sẽ bỏ qua các file bị ignore
+
+                .gitignore
+                     │
+                     │ (chặn không cho theo dõi)
+                     ↓
+Working Directory
+   │        │
+   │        └── ❌ File bị ignore (Git bỏ qua)
+   │
+   └── File được track
+            ↓  git add
+       Staging Area
+            ↓  git commit
+       Local Repository (.git)
+            ↓  git push
+       Remote Repository (GitHub)

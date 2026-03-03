@@ -1,5 +1,5 @@
 - git commit --amend: sửa lại commit gần nhất
-- git commit --amend -m commit <message>: Sửa commit message thành nội dung mới
+- git commit --amend -m <message>: Sửa commit message thành nội dung mới
 - git restore --staged <file>:Bỏ file khỏi staging (đã git add rồi)
 - git reset HEAD~1: Xóa commit gần nhất và giữ nguyên cide trong thư mục làm việc
 

@@ -1,5 +1,9 @@
 1. Tạo folder demo 03
-2. Tạo lần lượt 3 files: file1, file2, file3 => Lúc này 3 files đang ở local
+2. Tạo lần lượt 3 files => Lúc này 3 files đang ở local
+- Local: file1, file2, 
+- Working Directory: trống
+- Staging: trống
+- Repository: trống
 3. Khởi tạo git init => 3 file được Git theo dõi và đang ở Working Directory, Git biết sự tồn tại của file, nhưng chưa track (chưa staged)
 4. git commit -m "init project" => git báo chưa có unchange gì để commit, phải add trước khi commit
 5. git add file 1 => add file 1 vào Staging 
